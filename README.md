@@ -1,3 +1,8 @@
+# Squire's Family Cookbook
+
+TBH I got sick of trying to find the copy of the cookbook in my cupboard, and a lot of the pages fell out, and this is legit a better way of doing this cookbook. It's going to be a pain in the ass or whatever, but it'll be easier, searchable and editable. Also dynamic. Need to make multiples of things? BOOM. Done.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -8,7 +8,7 @@ class App extends Component {
     super(props);
   this.selectNewRecipe = this.selectNewRecipe.bind(this);
   this.state = {
-   
+    recipes:  
     }
   };
   render() {

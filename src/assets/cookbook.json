@@ -17,27 +17,27 @@
             "ingredient3": {
                 "type": "Baking Powder",
                 "unit": "tsbp",
-                "volume": 1
+                "quantity": 1
             },
             "ingredient4": {
                 "type": "Salt",
                 "unit": "tsp",
-                "volume": 0.25
+                "quantity": 0.25
             },
             "ingredient5": {
                 "type": "Egg Yolks",
                 "unit": "single",
-                "volume": 2
+                "quantity": 2
             },
             "ingredient6": {
                 "type": "Milk",
                 "unit": "cup",
-                "volume": 1.75
+                "quantity": 1.75
             },
             "ingredient": {
                 "type": "Vegetable Oil",
                 "unit": "cup",
-                "volume": 0.5
+                "quantity": 0.5
             },
             "ingredient8": {
                 "type": "Egg Whites",
@@ -45,7 +45,7 @@
                 "quantity": 2
             }
         },
-        "instructions": "In a mixing bowl combine flour, baking powder and salt.  In another bowl, beat egg yolks slightly.  Add milk and oil to egg yolks.  Add egg yolk mixture to flour mixture and stir just till combine but still a little lumpy.  In a separate bowl beat egg whites till stiff peaks form.  Gently fold beaten egg whites with flour and egg yolk batter.  Do not over mix.  Bake in a lightly greased waffle maker.  The egg whites make these waffles nice and crispy.",
-
-    }
+        "instructions": "In a mixing bowl combine flour, baking powder and salt.  In another bowl, beat egg yolks slightly.  Add milk and oil to egg yolks.  Add egg yolk mixture to flour mixture and stir just till combine but still a little lumpy.  In a separate bowl beat egg whites till stiff peaks form.  Gently fold beaten egg whites with flour and egg yolk batter.  Do not over mix.  Bake in a lightly greased waffle maker.  The egg whites make these waffles nice and crispy."
+    },
+    "category": "breakfast"
 }

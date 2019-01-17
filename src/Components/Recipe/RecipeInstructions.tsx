@@ -1,9 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const RecipeInstructions = () => {
-    return (
-        <div>Yo</div>
-    )
+class RecipeInstructions extends Component <any, any> {
+    constructor(props: any) {
+        super(props);
+        this.state = {
+           copy: this.props.text
+        }
+    }
+
+    render (){
+        return (
+        <>
+            <p>{this.state.copy}</p>
+        </>
+        )
+        };
 };
 
 export default RecipeInstructions;

@@ -4,12 +4,16 @@ import Recipe from './Components/Recipe';
 import Footer from './Components/Footer';
 import './App.css';
 
+import data from './assets/breakfast';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header />
-        <Recipe />
+        {data.map(x => (
+          <Recipe {...x} />
+        ))}
         <Footer />
       </div>
     );

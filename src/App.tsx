@@ -4,7 +4,7 @@ import Recipe from './Components/Recipe';
 import Footer from './Components/Footer';
 import './App.css';
 
-import data from './assets/breakfast';
+import data from './assets/Breakfast';
 
 class App extends Component {
   render() {

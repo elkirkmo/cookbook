@@ -1,6 +1,7 @@
 const PUDDINGANDTOAST = {
   id: 1,
   title: 'Chocolate Pudding and Toast',
+  slug: 'chocolate-pudding-and-toast',
   author: 'Beverly Scott',
   ingredients: [
     { type: 'sugar', unit: 'cup', quantity: 0.75 },

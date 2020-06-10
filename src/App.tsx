@@ -1,23 +1,24 @@
-import React, { Component } from 'react';
+import React, { FunctionComponent } from 'react';
 import Header from './Components/Header';
-import Recipe from './Components/Recipe';
+import { Switch, Route } from 'react-router-dom';
+import RecipeRouter from './Components/RecipeRouter';
+
 import Footer from './Components/Footer';
 import './App.css';
 
-import data from './assets/Breakfast';
+import CATEGORIES from './assets/categories';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Header />
-        {data.map(x => (
-          <Recipe {...x} />
-        ))}
-        <Footer />
-      </div>
-    );
-  }
-}
+const App: FunctionComponent = () => {
+  return (
+    <div className="App">
+      <Header />
+      <Switch>
+        <Route path="/" exact render={() => <h1>Oh hi</h1>} />
+        <Route path="/:category" component={RecipeRouter} />
+      </Switch>
+      <Footer />
+    </div>
+  );
+};
 
 export default App;

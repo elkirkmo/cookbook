@@ -1,6 +1,7 @@
 const WAFFLES = {
   id: 1,
   title: 'Waffles',
+  slug: 'waffles',
   author: 'Lara Squires',
   ingredients: [
     {
@@ -25,7 +26,7 @@ const WAFFLES = {
     },
     {
       type: 'Egg Yolks',
-      unit: 'single',
+      unit: '',
       quantity: 2
     },
     {
@@ -40,7 +41,7 @@ const WAFFLES = {
     },
     {
       type: 'Egg Whites',
-      unit: 'single',
+      unit: '',
       quantity: 2
     }
   ],

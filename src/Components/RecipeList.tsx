@@ -25,6 +25,7 @@ const RecipeList: FunctionComponent<Props> = ({
   },
 }) => {
   console.log(categories);
+  console.log('here');
   const recipes: IRecipe[] = Object.entries(categories)
     .filter(([key]) => key === category)
     .map(([, value]) => value)[0] as IRecipe[];
@@ -34,7 +35,7 @@ const RecipeList: FunctionComponent<Props> = ({
       <ul>
         {recipes.map(({ slug, title }) => (
           <li key={slug}>
-            <Link to={`/recipes/${category}/${slug}`}>{title}</Link>
+            <Link to={`/${category}/recipes/${slug}`}>{title}</Link>
           </li>
         ))}
       </ul>

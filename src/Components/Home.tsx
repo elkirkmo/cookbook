@@ -6,7 +6,6 @@ import captialize from '../utils/captalize';
 
 import CATEGORIES from '../assets/categories';
 const Home = () => {
-  console.log(CATEGORIES);
   const Links = () =>
     Object.keys(CATEGORIES).map((x) => (
       <>

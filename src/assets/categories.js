@@ -1,4 +1,4 @@
-import breakfast from './Breakfast';
+import breakfast from './breakfast';
 
 const CATEGORIES = { breakfast, bread: [{ title: 'this bread' }] };
 
